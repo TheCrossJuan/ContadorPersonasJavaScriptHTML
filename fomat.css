@@ -1,0 +1,126 @@
+/* Hecho por Adam Olinkevych */
+#titulo{
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 0 auto;
+    color: white
+}
+#boton{
+    font-size: 100px;
+    width: fit-content;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 25px;
+    margin-left: 100px;
+}
+#boton2{
+    font-size: 100px;
+    width: fit-content;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 25px;
+}
+#boton3{
+    font-size: 100px;
+    width: fit-content;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 25px;
+}
+#boton4{
+    font-size: 100px;
+    width: fit-content;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 25px;
+    margin-right: 100px;
+}
+
+
+#contadorH{
+    margin-left: 50px;
+    background-color: rgba(173, 216, 230, 0.5);        
+}
+
+#contadorM{
+    margin-right: 50px;
+    background-color: rgba(255, 0, 128, 0.5);        
+}
+
+#contadorG{
+    background-color: rgba(255, 255, 255, 0.5);        
+}
+
+#mujeh{
+    margin-top: -937px;
+}
+
+#general{
+    margin-top: -76.2%;
+    margin-right: 35%;
+}
+
+/* Solo si la pantalla mide menos de 1024px de ancho (móviles/tablets/pantallas pequeñas) */
+@media (max-width: 1024px) {
+    #general{
+        margin-top: -200px;
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+input{
+    font-size: 100px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 300px auto;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+
+body{
+    background-image: url("48095967.png");
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+form{
+    margin-top: -250px;
+}
+
+table{
+    margin-top: -250px;
+}
+
+button{
+    background-color:rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+
+/* --- EFECTO DE BOTE / REBOTE --- */
+@keyframes bote {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.15); /* Se hace un poco más grande */
+    }
+    50% {
+        transform: scale(0.92); /* Se comprime ligeramente */
+    }
+    70% {
+        transform: scale(1.05); /* Rebote pequeño */
+    }
+    100% {
+        transform: scale(1);    /* Regresa a la normalidad */
+    }
+}
+
+.animar-bote {
+    animation: bote 0.35s ease;
+}
