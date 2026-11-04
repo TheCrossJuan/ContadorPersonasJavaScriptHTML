@@ -63,7 +63,7 @@
 }
 
 /* Solo si la pantalla mide menos de 1024px de ancho (móviles/tablets/pantallas pequeñas) */
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
     #general{
         margin-top: -200px;
         margin-right: 0;
